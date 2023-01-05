@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Counter myyear="2022" mymonth="02" myday="02" />
+      <Counter myyear="2023" mymonth="02" myday="02" />
       <div className="Guestbook">
         <form>
           <input type="text" name="name"></input>
