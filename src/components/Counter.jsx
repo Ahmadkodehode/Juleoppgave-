@@ -27,9 +27,9 @@ function Counter({ myyear, mymonth, myday }) {
   });
 
   return (
-    <div>
+    <div style={{ padding: "20px", border: "2px red solid " }}>
       {timeLeft.hours || timeLeft.minutes || timeLeft.seconds ? (
-        <p style={{ color: "red", border: "2px red solid ", badding: "90px" }}>
+        <p style={{ color: "Blue" }}>
           <h3>{timeLeft.days} day</h3>
           <h3>{timeLeft.hours} hour</h3>
           <h3>{timeLeft.minutes} minute</h3>
